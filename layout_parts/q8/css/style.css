@@ -2,4 +2,290 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.button_small {
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 0px 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  height: 26px;
+  line-height: 26px;
+  vertical-align: middle;
+}
+
+.button_middle {
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 0px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+.button_large {
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 0px 25px;
+  font-size: 24px;
+  border-radius: 7px;
+  height: 38px;
+  line-height: 38px;
+  vertical-align: middle;
+}
+
+.color_blue {
+  background: #00bcd4;
+  color: #fff;
+}
+
+.color_pink {
+  background-color: #ff4081;
+  color: #fff;
+}
+
+.color_gray {
+  background-color: #e5e5e5;
+  color: #fff;
+}
+
+.color_white {
+  background-color: #fff;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+.form_title{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.title_text {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ecf1f2;
+  font-size: 24px;
+  font-weight: 24px;
+  font-weight: bold;
+}
+
+.form_title:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.form_container {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ecf1f2;
+}
+
+.leftbox {
+  float: left;
+  width: 300px;
+}
+
+.main_form_item_title {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.main_form_item {
+  float: right;
+  width: 180px;
+}
+
+.form_input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+.form_input:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.main_gender_radio {
+  cursor: pointer;
+}
+
+.radio_button {
+  display: none;
+}
+
+.radio_text {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.radio_text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.radio_button:checked + .radio_text:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.selecter {
+  position: relative;
+}
+
+.select_body {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.selecter:after {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+.rightbox {
+  float: right;
+  width: 380px;
+}
+
+.message_textarea {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  border-color: #fff;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.main_form_list > li {
+  margin-top: 20px;
+}
+
+.main_form_list > li:first-child {
+  margin-top: 0px;
+}
+
+.checkbox {
+  text-align: right;
+}
+
+.checkbox_button {
+  display: none;
+}
+
+.checkbox_text {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.checkbox_text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+.checkbox_button:checked + .checkbox_text:after {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: '';
+}
+
+.is_required {
+  color: red;
+}
+
+.submit_button_box {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.submit_button {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+  outline: none;
+  border: none;
+}
+
+.submit_btn:active {
+  background-color: #FFF;
+  color: #00BCD4;
+}
 /* 回答はここに書いてね */
