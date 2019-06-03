@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.foods {
   margin: 0 auto;
   table-layout: fixed;
   width: 100%;
   border: 1;
 }
 
-th {
+.foods th {
   padding: 10px;
   background-color: #2244aa;
   color: #ffffff;
@@ -16,22 +16,23 @@ th {
   line-height: 26px;
 }
 
-td {
+.foods td {
   padding: 10px;
   text-align: center;
   font-size: 16px;
   line-height: 22px;
 }
-th, td {
+.foods th,
+.foods td {
   border: solid #dedede 1px;
 }
 
-tr:nth-child(2n+3) > td {
+.foods tr:nth-child(2n+3) > td {
   background-color: #ecf1f2;
 }
 
-tr:last-child > td,
-tr:last-child > th {
+.foods tr:last-child > td,
+.foods tr:last-child > th {
   border-top: dashed #000 2px;
 }
 
