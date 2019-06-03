@@ -1,12 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.LRcenter {
+.LRcenter_bytext{
+  text-align: center;
+}
+
+.LRcenter_bytext > .bluebox {
+}
+
+.LRcenter_bytext .box_text {
+  display: inline-block;
+}
+
+.q6--horizontal .box_text {
+  padding: 10px 0;
+  width: 90px;
+  background-color: #E6F2FF;
+}
+
+.LRcenter_bymargin .box_text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box_text {
   width: 70px;
   padding: 10px;
-  margin: 0 auto;
   background-color: #e6f2ff;
-  text-align: center;
 }
 
 .LRBTcentertable {
