@@ -224,7 +224,7 @@
   margin-top: 0px;
 }
 
-.checkbox {
+.form_checkbox {
   text-align: right;
 }
 
@@ -248,6 +248,7 @@
   background-color: #fff;
   border: 1px solid #ccc;
   content: '';
+  cursor: pointer;
 }
 
 .checkbox_button:checked + .checkbox_text:after {
@@ -284,7 +285,7 @@
   border: none;
 }
 
-.submit_btn:active {
+.submit_button:active {
   background-color: #FFF;
   color: #00BCD4;
 }
