@@ -103,13 +103,13 @@
         <div class="form_title">
           <p class="title_text">Form Exercise</p>
         </div>
-        <div class="box_container clearfix">
+        <form class="box_container clearfix">
           <div class="leftbox">
             <ul class="main_form_list">
               <li class="clearfix">
                 <p class="main_form_item_title">名前<span class="is_required">*</span></p>
                 <div class="main_form_item">
-                  <input class="form_input" type="text" name="name">
+                  <input class="form_input" type="text" name="name" required="">
                 </div>
               </li>
               <li class="clearfix">
@@ -139,13 +139,13 @@
               <li class="clearfix">
                 <p class="main_form_item_title">Eメール<span class="is_required">*</span></p>
                 <div class="main_form_item">
-                  <input class="form_input" type="email" name="email" placeholder="ex) hoge@gmail.com">
+                  <input class="form_input" type="email" name="email" required="" placeholder="ex) hoge@gmail.com">
                 </div>
               </li>
               <li class="clearfix">
                 <p class="main_form_item_title">電話番号</p>
                 <div class="main_form_item">
-                  <input class="form_input" type="text" name="name" placeholder="ex) 08012345678">
+                  <input class="form_input" type="text" name="name" required="" placeholder="ex) 08012345678">
                 </div>
               </li>
               <li class="clearfix">
@@ -158,13 +158,13 @@
               </li>
             </ul>
             <div class="submit_button_box">
-              <button class="submit_button"type="submit">送信</button>
+              <button class="submit_button" type="submit">送信</button>
             </div>
           </div>
           <div class="rightbox">
-            <textarea name="message" class="message_textarea" placeholder="何かあれば入力してください。"></textarea>
+            <textarea name="message" class="form_input message_textarea" placeholder="何かあれば入力してください。"></textarea>
           </div>
-        </div>
+        </form>
       </div>
       <!-- 回答はここに書いてね -->
     </div>
