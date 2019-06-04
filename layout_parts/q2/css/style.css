@@ -14,15 +14,15 @@
   word-break: break-all;
 }
 
-img {
-  margin: 10px 20px;
-}
-
-div.content__box:nth-child(1) > img {
+.baloon_image {
   float: left;
+  margin-bottom: 10px;
+  margin-right: 20px;
 }
 
-div.content__box:nth-child(2) > img {
+.lighting_image {
   float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 /* 回答はここに書いてね */
